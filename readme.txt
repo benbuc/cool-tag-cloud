@@ -18,13 +18,6 @@ If you liked my plugin, please `rate` it.
 
 Special thanks to [Orman Clark](http://www.premiumpixels.com/freebies/tagtastic-tag-cloud-psd/) for the tag image and to [Dimox](http://dimox.name/beautiful-tags-markup/) for the CSS code.
 
-You may also like my other plugins:
-
-- [BBSpoiler](http://wordpress.org/plugins/bbspoiler/) - This plugin allows you to hide text under the tags [spoiler]your text[/spoiler]. 
-- [Hide My Dates](http://wordpress.org/plugins/hide-my-dates/) - The plugin hides post and comment publishing dates from Google. 
-- [Spam Notifier](http://wordpress.org/plugins/spam-notifier/) - The plugin sends an email message when a comment goes to the spam folder. 
-- [Restore Columns](http://wordpress.org/plugins/restore-columns/) - The plugin restores the possibility to select the number of columns displayed on the dashboard. 
-
 
 == Installation ==
 
