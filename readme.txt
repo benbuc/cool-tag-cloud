@@ -4,7 +4,7 @@ Donate link: http://goo.gl/CcxWYg
 Tags: categories, category, cloud, tag, tag cloud, tags, taxonomy, widget, sidebar, cool, wp_tag_cloud, responsive, image tag, tagcloud, tags list, tagging, admin, image, images
 Requires at least: 3.3
 Tested up to: 4.0
-Stable tag: 1.00
+Stable tag: 1.01
 
 A simple, yet very beautiful tag cloud.
 
@@ -39,17 +39,19 @@ Yes, please send your localization files (.mo и .po) to rlector@gmail.com.
 
 == Screenshots ==
 
-`All screenshots were made without smoothing in OS!`
-
 1. Configuring the plugin's widget.
 2. Font-family: Arial, Font weight: Bold, Font size: 11px to 16px.
-3. Font-family: Tahoma, Font weight: Bold, Font size: 11px (smallest and largest).
+3. Font-family: Rockwell, Font weight: Bold, Font size: 11px (smallest and largest), Image align: Right.
 4. Font-family: Rockwell, Font weight: Bold, Font size: 14px (smallest and largest).
 5. Font-family: Arial, Font weight: Normal, Font size: 10px  (smallest and largest), Dark Theme.
 6. Font-family: Rockwell, Font weight: Bold, Font size: 12px (smallest and largest), Text transform: Uppercase.
 7. Font-family: "Open Sans", Font weight: Bold, Font size: 10px to 17px.
 
 == Changelog ==
+
+= 1.01 =
+* add option "Image align"
+* css fixes.
 
 = 1.00 =
 * first version

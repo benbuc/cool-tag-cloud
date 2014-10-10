@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cool Tag Cloud ru_RU\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-29 10:21+0300\n"
-"PO-Revision-Date: 2014-09-29 10:23+0300\n"
+"POT-Creation-Date: 2014-10-10 19:27+0300\n"
+"PO-Revision-Date: 2014-10-10 19:30+0300\n"
 "Last-Translator: Flector <rlector@gmail.com>\n"
 "Language-Team: Flector <rlector@gmail.com>\n"
 "Language: ru\n"
@@ -20,115 +20,127 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPath-1: ..\n"
 
-#: ../cool-tag-cloud.php:35
+#: ../cool-tag-cloud.php:37
 msgid "Cool Tag Cloud widget."
 msgstr "Виджет плагина Cool Tag Cloud."
 
-#: ../cool-tag-cloud.php:48
+#: ../cool-tag-cloud.php:50
 msgid "Tags"
 msgstr "Метки"
 
-#: ../cool-tag-cloud.php:84
+#: ../cool-tag-cloud.php:88
 msgid "Title:"
 msgstr "Заголовок:"
 
-#: ../cool-tag-cloud.php:92
+#: ../cool-tag-cloud.php:96
 msgid "Font family:"
 msgstr "Семейство шрифтов:"
 
-#: ../cool-tag-cloud.php:114
+#: ../cool-tag-cloud.php:120
 msgid "Font weight:"
 msgstr "Начертание шрифта:"
 
-#: ../cool-tag-cloud.php:118
+#: ../cool-tag-cloud.php:124
 msgid "Normal"
 msgstr "Нормальное начертание"
 
-#: ../cool-tag-cloud.php:120
+#: ../cool-tag-cloud.php:126
 msgid "Bold"
 msgstr "Жирное начертание"
 
-#: ../cool-tag-cloud.php:126
+#: ../cool-tag-cloud.php:132
 msgid "Smallest font size:"
 msgstr "Наименьший размер шрифта:"
 
-#: ../cool-tag-cloud.php:150
+#: ../cool-tag-cloud.php:156
 msgid "Largest font size:"
 msgstr "Наибольший размер шрифта:"
 
-#: ../cool-tag-cloud.php:174
+#: ../cool-tag-cloud.php:180
+msgid "Image align:"
+msgstr "Выравнивание картинки:"
+
+#: ../cool-tag-cloud.php:184
+msgid "Left"
+msgstr "Влево"
+
+#: ../cool-tag-cloud.php:186
+msgid "Right"
+msgstr "Вправо"
+
+#: ../cool-tag-cloud.php:192
 msgid "Text transform:"
 msgstr "Имена меток:"
 
-#: ../cool-tag-cloud.php:178
+#: ../cool-tag-cloud.php:196
 msgid "None"
 msgstr "Как есть"
 
-#: ../cool-tag-cloud.php:180
+#: ../cool-tag-cloud.php:198
 msgid "Uppercase"
 msgstr "Прописные"
 
-#: ../cool-tag-cloud.php:182
+#: ../cool-tag-cloud.php:200
 msgid "Lowercase"
 msgstr "Строчные"
 
-#: ../cool-tag-cloud.php:184
+#: ../cool-tag-cloud.php:202
 msgid "Capitalize"
 msgstr "Первая буква прописная"
 
-#: ../cool-tag-cloud.php:190
+#: ../cool-tag-cloud.php:208
 msgid "Maximum tags (0 for no limit):"
 msgstr "Максимум меток (0 - без ограничений):"
 
-#: ../cool-tag-cloud.php:198
+#: ../cool-tag-cloud.php:216
 msgid "Order tags by:"
 msgstr "Сортировать метки по:"
 
-#: ../cool-tag-cloud.php:203
+#: ../cool-tag-cloud.php:221
 msgid "name"
 msgstr "имени"
 
-#: ../cool-tag-cloud.php:205
+#: ../cool-tag-cloud.php:223
 msgid "count"
 msgstr "числу"
 
-#: ../cool-tag-cloud.php:211
+#: ../cool-tag-cloud.php:229
 msgid "Tag order direction:"
 msgstr "Направление сортировки:"
 
-#: ../cool-tag-cloud.php:215
+#: ../cool-tag-cloud.php:233
 msgid "ascending"
 msgstr "по возрастанию"
 
-#: ../cool-tag-cloud.php:217
+#: ../cool-tag-cloud.php:235
 msgid "descending"
 msgstr "по убыванию"
 
-#: ../cool-tag-cloud.php:219
+#: ../cool-tag-cloud.php:237
 msgid "random"
 msgstr "случайно"
 
-#: ../cool-tag-cloud.php:226
+#: ../cool-tag-cloud.php:244
 msgid "Taxonomy:"
 msgstr "Таксономия:"
 
-#: ../cool-tag-cloud.php:244
+#: ../cool-tag-cloud.php:262
 msgid "Tooltip:"
 msgstr "Тултип с числом записей:"
 
-#: ../cool-tag-cloud.php:248 ../cool-tag-cloud.php:260
+#: ../cool-tag-cloud.php:266 ../cool-tag-cloud.php:278
 msgid "Yes"
 msgstr "Да"
 
-#: ../cool-tag-cloud.php:250 ../cool-tag-cloud.php:262
+#: ../cool-tag-cloud.php:268 ../cool-tag-cloud.php:280
 msgid "No"
 msgstr "Нет"
 
-#: ../cool-tag-cloud.php:256
+#: ../cool-tag-cloud.php:274
 msgid "Nofollow for tag links:"
 msgstr "Добавить rel=\"nofollow\" для ссылок в облаке:"
 
-#: ../cool-tag-cloud.php:266
+#: ../cool-tag-cloud.php:284
 msgid "Donate with PayPal"
 msgstr "Пожертвовать через PayPal"
 

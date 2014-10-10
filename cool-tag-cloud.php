@@ -3,7 +3,7 @@
 Plugin Name: Cool Tag Cloud
 Plugin URI: http://wordpress.org/plugins/cool-tag-cloud/
 Description: A simple, yet very beautiful tag cloud.
-Version: 1.00
+Version: 1.01
 Author: Flector
 Author URI: http://wordpress.org/plugins/cool-tag-cloud/
 */ 
@@ -29,6 +29,8 @@ class Cool_Tag_Cloud_Widget extends WP_Widget {
 		'tooltip'       => 'Yes',
 		'texttransform' => 'none',
 		'nofollow'      => 'No',
+		'imagestyle'    => 'ctcdefault',
+		'imagealign'    => 'ctcleft'
 	);
 
 	public function __construct() {
@@ -64,8 +66,10 @@ class Cool_Tag_Cloud_Widget extends WP_Widget {
 		echo '<div class="cool-tag-cloud">';
 		if ($l_tag_params["font-weight"] == "Bold") {
 			echo '<div class="cloudbold">'; }
-		echo '<div class="' . $l_tag_params["font-family"] . '" style="text-transform:' . $l_tag_params["texttransform"] . ';">';
+		echo '<div class="' . $l_tag_params["imagestyle"] . '">'; echo '<div class="' . $l_tag_params["imagealign"] . '">';
+		echo '<div class="' . $l_tag_params["font-family"] . '" style="text-transform:' . $l_tag_params["texttransform"] . '!important;">';
 		echo $l_tag_cloud_text;
+		echo '</div>'; echo '</div>';
 		echo '</div>';
 		if ($l_tag_params["font-weight"] == "Bold") {
 			echo '</div>'; }
@@ -168,6 +172,18 @@ class Cool_Tag_Cloud_Widget extends WP_Widget {
 			' value="16">16px</option>';
 		echo '<option ' . selected( '17', $l_instance['largest'],false ) .
 			' value="17">17px</option>';
+		echo '</select>';
+		echo '</p>';
+		
+		echo '<p>';
+		echo '<label for="' . $this->get_field_id( 'imagealign' ) . '">' .
+			__( 'Image align:','cool-tag-cloud' ) . '</label>';
+		echo '<select class="widefat" id="' . $this->get_field_id( 'imagealign' ) . 
+			'" name="' . $this->get_field_name( 'imagealign' ) . '">';
+		echo '<option ' . selected( 'ctcleft', $l_instance['imagealign'], false ) .
+			' value="ctcleft">' . __('Left','cool-tag-cloud') .'</option>';
+		echo '<option ' . selected( 'ctcright', $l_instance['imagealign'],false ) .
+			' value="ctcright">' . __('Right','cool-tag-cloud') .'</option>';
 		echo '</select>';
 		echo '</p>';
 		
@@ -334,6 +350,15 @@ class Cool_Tag_Cloud_Widget extends WP_Widget {
 		} else {
 			$l_instance['largest'] = $p_old_instance['largest'];
 		}
+		
+		if ( 'ctcleft' == $p_new_instance['imagealign'] ) {
+			$l_instance['imagealign'] = 'ctcleft';
+		} else if ( 'ctcright' == $p_new_instance['imagealign'] ) {
+			$l_instance['imagealign'] = 'ctcright';
+		} else {
+			$l_instance['imagealign'] = $p_old_instance['imagealign'];
+		}
+		
 		
 		if ( 'Bold' == $p_new_instance['font-weight'] ) {
 			$l_instance['font-weight'] = 'Bold';

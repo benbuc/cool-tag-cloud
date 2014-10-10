@@ -1,8 +1,13 @@
-.cool-tag-cloud a {
+.cool-tag-cloud .ctcdefault .ctcleft a {
+	background: url(images/default-left.png) no-repeat!important;  
+}
+.cool-tag-cloud .ctcdefault .ctcright a {
+	background: url(images/default-right.png) no-repeat!important;  
+}
+.cool-tag-cloud .ctcleft a {
 	margin: 0 4px 4px -2px!important;
 	display: inline-block!important;  
 	height: 25px!important;  
-	background: url(images/tags.png) no-repeat!important;  
 	line-height:22px!important;
 	color: #963!important;  
 	text-decoration: none!important;  
@@ -12,22 +17,59 @@
 	position: relative!important;  
 	border-color: none!important;
 	border: none!important;
+	transition: none!important;
 }	
-.cool-tag-cloud a:after { 
+.cool-tag-cloud .ctcright a {
+	margin: 0 17px 4px 0px!important;
+	display: inline-block!important;  
+	height: 25px!important;  
+	line-height:22px!important;
+	color: #963!important;  
+	text-decoration: none!important;  
+	padding: 0 5px 0 12px!important;  
+	text-shadow: 1px 1px 0 rgba(256,256,256,0.4)!important;  
+	white-space: nowrap!important;  
+	position: relative!important;  
+	border-color: none!important;
+	border: none!important;
+	transition: none!important;
+}
+.cool-tag-cloud  .ctcdefault .ctcleft a:after { 
+	background: url(images/default-left.png) top right no-repeat!important; 
+}
+.cool-tag-cloud  .ctcdefault .ctcright a:after { 
+	background: url(images/default-right.png) top right no-repeat!important; 
+}
+.cool-tag-cloud  .ctcleft a:after { 
 	content: ''!important;  
 	position: absolute!important;  
 	top: 0!important;  
 	right: -2px!important;  
 	width: 2px!important;  
-	height: 25px!important;  
-	background: url(images/tags.png) top right no-repeat!important;  
+	height: 25px!important;   
 	border: none!important;
+	transition: none!important;
 }  
-.cool-tag-cloud a:hover { 
+.cool-tag-cloud  .ctcright a:after { 
+	content: ''!important;  
+	position: absolute!important;  
+	top: 0!important;  
+	right: -17px!important;  
+	width: 17px!important;  
+	height: 25px!important;   
+	border: none!important;
+	transition: none!important;
+} 
+.cool-tag-cloud .ctcdefault .ctcleft a:hover {  
+	background: url(images/default-left.png) bottom left no-repeat!important;  
+}
+.cool-tag-cloud .ctcdefault .ctcright a:hover {  
+	background: url(images/default-right.png) bottom left no-repeat!important;  
+}
+.cool-tag-cloud .ctcleft a:hover { 
 	margin: 0 4px 4px -2px!important;
 	display: inline-block!important;  
 	height: 25px!important;  
-	background: url(images/tags.png) bottom left no-repeat!important;  
 	line-height:22px!important; 
 	color: #963!important;  
 	text-decoration: none!important;  
@@ -37,11 +79,30 @@
 	position: relative!important;  
 	border-color: none!important;
 	border: none!important;
+	transition: none!important;
 }  
-.cool-tag-cloud .cloudbold {
-	font-weight:bold!important;
+.cool-tag-cloud .ctcright a:hover { 
+	margin: 0 17px 4px 0px!important;
+	display: inline-block!important;  
+	height: 25px!important;  
+	line-height:22px!important; 
+	color: #963!important;  
+	text-decoration: none!important;  
+	padding: 0 5px 0 12px!important;  
+	text-shadow: 1px 1px 0 rgba(256,256,256,0.4)!important;  
+	white-space: nowrap!important;  
+	position: relative!important;  
+	border-color: none!important;
+	border: none!important;
+	transition: none!important;
+} 
+.cool-tag-cloud .ctcdefault .ctcleft a:hover:after {
+	background: url(images/default-left.png) bottom right no-repeat!important; 
 }
-.cool-tag-cloud a:hover:after {
+.cool-tag-cloud .ctcdefault .ctcright a:hover:after {
+	background: url(images/default-right.png) bottom right no-repeat!important; 
+}
+.cool-tag-cloud .ctcleft a:hover:after {
   content: ''!important;  
   position: absolute!important;  
   top: 0!important;  
@@ -49,8 +110,24 @@
   width: 2px!important;  
   height: 25px!important;  
   text-shadow: 1px 1px 0 rgba(256,256,256,0.4)!important;  
-  background: url(images/tags.png) bottom right no-repeat!important; 
   border: none!important;
+  transition: none!important;
+}
+.cool-tag-cloud .ctcright a:hover:after {
+  content: ''!important;  
+  position: absolute!important;  
+  top: 0!important;  
+  right: -17px!important;  
+  width: 17px!important;  
+  height: 25px!important;  
+  text-shadow: 1px 1px 0 rgba(256,256,256,0.4)!important;  
+  border: none!important;
+  transition: none!important;
+}
+
+
+.cool-tag-cloud .cloudbold  a{
+	font-weight:bold!important;
 }
 .cool-tag-cloud .arial {font-family:Arial, Helvetica, Sans-serif!important}
 .cool-tag-cloud .rockwell {font-family:Rockwell, Georgia, Serif!important}
