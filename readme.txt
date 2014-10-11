@@ -51,7 +51,7 @@ Yes, please send your localization files (.mo и .po) to rlector@gmail.com.
 
 = 1.01 =
 * add option "Image align"
-* css fixes.
+* css fixes
 
 = 1.00 =
 * first version
