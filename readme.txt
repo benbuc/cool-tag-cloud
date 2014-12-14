@@ -3,7 +3,7 @@ Contributors: flector
 Donate link: http://goo.gl/CcxWYg
 Tags: categories, category, cloud, tag, tag cloud, tags, taxonomy, widget, sidebar, cool, wp_tag_cloud, responsive, image tag, tagcloud, tags list, tagging, admin, image, images
 Requires at least: 3.3
-Tested up to: 4.0
+Tested up to: 4.1
 Stable tag: 1.01
 
 A simple, yet very beautiful tag cloud.
