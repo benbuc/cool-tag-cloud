@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Cool Tag Cloud
-Plugin URI: http://wordpress.org/plugins/cool-tag-cloud/
+Plugin URI: https://wordpress.org/plugins/cool-tag-cloud/
 Description: A simple, yet very beautiful tag cloud.
 Version: 1.01
 Author: Flector
-Author URI: http://wordpress.org/plugins/cool-tag-cloud/
+Author URI: https://profiles.wordpress.org/flector#content-plugins
 */ 
 
 class Cool_Tag_Cloud_Widget extends WP_Widget {
