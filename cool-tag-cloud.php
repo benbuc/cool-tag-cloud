@@ -178,7 +178,7 @@ class Cool_Tag_Cloud_Widget extends WP_Widget {
 		
         echo '<p>';
 		echo '<label for="' . $this->get_field_id('imagestyle') . '">' .
-			__( 'Image Style:', 'cool-tag-cloud' ) . '</label>';
+			__( 'Image style:', 'cool-tag-cloud' ) . '</label>';
 		echo '<select class="widefat" id="' . $this->get_field_id('imagestyle') . 
 			'" name="' . $this->get_field_name('imagestyle') . '">';
 		echo '<option ' . selected('ctcdefault', $l_instance['imagestyle'], false) .

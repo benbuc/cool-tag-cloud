@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Cool Tag Cloud ru_RU\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-06-12 13:09+0300\n"
-"PO-Revision-Date: 2015-06-12 13:09+0300\n"
+"POT-Creation-Date: 2015-06-12 13:53+0300\n"
+"PO-Revision-Date: 2015-06-12 13:53+0300\n"
 "Last-Translator: Flector <rlector@gmail.com>\n"
 "Language-Team: Flector <rlector@gmail.com>\n"
 "Language: ru\n"
@@ -57,7 +57,7 @@ msgid "Largest font size:"
 msgstr "Наибольший размер шрифта:"
 
 #: ../cool-tag-cloud.php:181
-msgid "Image Style:"
+msgid "Image style:"
 msgstr "Стиль картинки:"
 
 #: ../cool-tag-cloud.php:185
@@ -193,6 +193,9 @@ msgstr "Добавить rel=\"nofollow\" для ссылок в облаке:"
 #: ../cool-tag-cloud.php:325
 msgid "Donate with PayPal"
 msgstr "Пожертвовать через PayPal"
+
+#~ msgid "Image Style:"
+#~ msgstr "Стиль картинки:"
 
 #~ msgid "Spoiler"
 #~ msgstr "Спойлер"
