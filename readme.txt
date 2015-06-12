@@ -40,14 +40,18 @@ Yes, please send your localization files (.mo и .po) to rlector@gmail.com.
 == Screenshots ==
 
 1. Configuring the plugin's widget.
-2. Font-family: Arial, Font weight: Bold, Font size: 11px to 16px.
-3. Font-family: Rockwell, Font weight: Bold, Font size: 11px (smallest and largest), Image align: Right.
-4. Font-family: Rockwell, Font weight: Bold, Font size: 14px (smallest and largest).
-5. Font-family: Arial, Font weight: Normal, Font size: 10px  (smallest and largest), Dark Theme.
-6. Font-family: Rockwell, Font weight: Bold, Font size: 12px (smallest and largest), Text transform: Uppercase.
-7. Font-family: "Open Sans", Font weight: Bold, Font size: 10px to 17px.
+2. Font-family: Arial, Font weight: Bold, Font size: 11px to 16px, Image style: Default.
+3. Font-family: Rockwell, Font weight: Bold, Font size: 12px (smallest and largest), Image align: Right, Image style: Black.
+4. Font-family: "Open Sans", Font weight: Bold, Font size: 14px (smallest and largest), Image style: Blue.
+5. Font-family: Arial, Font weight: Normal, Font size: 11px  (smallest and largest), Image style: Red, Dark Theme.
+6. Font-family: Rockwell, Font weight: Bold, Font size: 10px (smallest and largest), Text transform: Uppercase, Image style: Brown.
+7. Font-family: "Open Sans", Font weight: Bold, Font size: 11px to 17px, Image style: Green.
 
 == Changelog ==
+
+= 2.00 =
+* added 10 different color styles
+* added "Animation on hover" option
 
 = 1.01 =
 * add option "Image align"
