@@ -1,7 +1,7 @@
 === Cool Tag Cloud ===
 Contributors: Flector
 Donate link: http://goo.gl/CcxWYg
-Tags: tag cloud, cloud, tag, tags, taxonomy, widget, sidebar, cool, tag-cloud, responsive, image tag, tagcloud, tags list, tagging, admin, image, images, seo, wordpress tags, colored tag cloud, colored, category cloud
+Tags: tag cloud, cloud, tag, tags, widget, sidebar, tag-cloud, responsive, tagcloud, tagging, admin, image, images, seo, colored, plugin, media, color, links, picture, category, tag widget, cumulus
 Requires at least: 3.3
 Tested up to: 4.2.2
 Stable tag: trunk
