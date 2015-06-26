@@ -50,7 +50,7 @@ Yes, please send your localization files (.mo и .po) to rlector@gmail.com.
 == Changelog ==
 
 = 2.01 =
-* added French translation (thanks to [Didier](http://www.wptrads.com/extension/cool-tag-cloud/))
+* added French translation (thanks to [Didier](http://www.wolforg.eu/))
 
 = 2.00 =
 * added 10 different color styles
