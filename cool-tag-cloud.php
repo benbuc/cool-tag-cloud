@@ -3,7 +3,7 @@
 Plugin Name: Cool Tag Cloud
 Plugin URI: https://wordpress.org/plugins/cool-tag-cloud/
 Description: A simple, yet very beautiful tag cloud.
-Version: 2.00
+Version: 2.01
 Author: Flector
 Author URI: https://profiles.wordpress.org/flector#content-plugins
 */ 

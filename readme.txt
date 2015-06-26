@@ -49,12 +49,15 @@ Yes, please send your localization files (.mo и .po) to rlector@gmail.com.
 
 == Changelog ==
 
+= 2.01 =
+* added French translation (thanks to [Didier](http://www.wptrads.com/extension/cool-tag-cloud/))
+
 = 2.00 =
 * added 10 different color styles
 * added "Animation on hover" option
 
 = 1.01 =
-* add option "Image align"
+* added "Image align" option
 * css fixes
 
 = 1.00 =
