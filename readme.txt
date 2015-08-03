@@ -3,7 +3,7 @@ Contributors: Flector
 Donate link: http://goo.gl/CcxWYg
 Tags: tag cloud, cloud, tag, tags, widget, sidebar, tag-cloud, responsive, tagcloud, tagging, admin, image, images, seo, colored, plugin, media, color, links, picture, category, tag widget, cumulus
 Requires at least: 3.3
-Tested up to: 4.2.2
+Tested up to: 4.3
 Stable tag: trunk
 
 A simple, yet very beautiful tag cloud.
