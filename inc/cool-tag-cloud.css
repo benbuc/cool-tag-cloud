@@ -411,14 +411,14 @@
     text-shadow: 1px 1px 0 black!important;  
 }  
 
-.cool-tag-cloud .ctc_no_bg .ctcleft a, .cool-tag-cloud .ctc_no_bg .ctcright a,
-.cool-tag-cloud .ctc_no_bg .ctcleft a:after, .cool-tag-cloud .ctc_no_bg .ctcright a:after,
-.cool-tag-cloud .ctc_no_bg .ctcleft a:hover, .cool-tag-cloud .ctc_no_bg .ctcright a:hover,
-.cool-tag-cloud .ctc_no_bg .ctcleft a:hover:after, .cool-tag-cloud .ctc_no_bg .ctcright a:hover:after {
+.cool-tag-cloud .ctcno_bg .ctcleft a, .cool-tag-cloud .ctcno_bg .ctcright a,
+.cool-tag-cloud .ctcno_bg .ctcleft a:after, .cool-tag-cloud .ctcno_bg .ctcright a:after,
+.cool-tag-cloud .ctcno_bg .ctcleft a:hover, .cool-tag-cloud .ctcno_bg .ctcright a:hover,
+.cool-tag-cloud .ctcno_bg .ctcleft a:hover:after, .cool-tag-cloud .ctcno_bg .ctcright a:hover:after {
 	background: none !important;
 }
-.cool-tag-cloud .ctc_no_bg .ctcleft a:hover, .cool-tag-cloud .ctc_no_bg .ctcright a:hover ,
-.cool-tag-cloud .ctc_no_bg .ctcright a, .cool-tag-cloud .ctc_no_bg .ctcleft a,
-.cool-tag-cloud .ctc_no_bg .ctcright a:visited, .cool-tag-cloud .ctc_no_bg .ctcleft a:visited {
+.cool-tag-cloud .ctcno_bg .ctcleft a:hover, .cool-tag-cloud .ctcno_bg .ctcright a:hover ,
+.cool-tag-cloud .ctcno_bg .ctcright a, .cool-tag-cloud .ctcno_bg .ctcleft a,
+.cool-tag-cloud .ctcno_bg .ctcright a:visited, .cool-tag-cloud .ctcno_bg .ctcleft a:visited {
 	color: black!important;
 }

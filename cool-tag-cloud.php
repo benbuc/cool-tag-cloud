@@ -213,8 +213,8 @@ class Cool_Tag_Cloud_Widget extends WP_Widget {
 			' value="ctclime">' . __('Lime', 'cool-tag-cloud') .'</option>';
         echo '<option ' . selected('ctcblack', $l_instance['imagestyle'], false) .
 			' value="ctcblack">' . __('Black', 'cool-tag-cloud') .'</option>';
-		echo '<option ' . selected('ctc_no_bg', $l_instance['imagestyle'], false) .
-			' value="ctc_no_bg">' . __('No Background', 'cool-tag-cloud') .'</option>';
+		echo '<option ' . selected('ctcno_bg', $l_instance['imagestyle'], false) .
+			' value="ctcno_bg">' . __('No Background', 'cool-tag-cloud') .'</option>';
 		echo '</select>';
 		echo '</p>';
         
@@ -448,8 +448,8 @@ class Cool_Tag_Cloud_Widget extends WP_Widget {
 			$l_instance['imagestyle'] = 'ctclime';
         } else if ('ctcblack' == $p_new_instance['imagestyle']) {
 			$l_instance['imagestyle'] = 'ctcblack';
-		} else if ('ctc_no_bg' == $p_new_instance['imagestyle']) {
-			$l_instance['imagestyle'] = 'ctc_no_bg';
+		} else if ('ctcno_bg' == $p_new_instance['imagestyle']) {
+			$l_instance['imagestyle'] = 'ctcno_bg';
 		} else {
 			$l_instance['imagestyle'] = $p_old_instance['imagestyle'];
 		}
