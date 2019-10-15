@@ -605,6 +605,8 @@ function cool_tag_cloud_sc( $atts = array(), $content = false ) {
         'show_count' => 'no',
 	);
 
+	echo json_encode(get_taxonomies());
+
 	ob_start();
 
 		$l_tag_params = wp_parse_args($atts, $defaults);
